@@ -2,6 +2,21 @@ html, body, form {
 	margin: 10;
 	padding: 10;
 }
+body {
+	background: #ffffff;
+	color: #111111;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding: 20px;
+}
 form {
-    background-color: aqua;
+
+	background: #8F00FF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px;
+	width: 400px;
+}
+input {
+	color: #ffffff;
 }
