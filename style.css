@@ -1,0 +1,7 @@
+html, body, form {
+	margin: 10;
+	padding: 10;
+}
+.form {
+    background-color: aqua;
+}
