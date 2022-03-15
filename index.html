@@ -8,17 +8,30 @@
 </head>
 <body>
     <form action="results.html" method="GET">
+
         <div>
-            <label for="name">Name</label>
-            <input name="name" required>
+            <label for="name">
+                Name
+                <input type="text" name="name" required id="name" placeholder="username">
+            </label>
         </div> 
+
         <div>
-            <label>
+            <label for="password">
                 Password
-                <input name="password" type="password">
+                <input name="password" type="password" required id="password" placeholder="password">
             </label>
         </div>
-        <button>Submit</button> 
+
+        <div>
+            <label for="email">
+                Email
+                <input name="email" type="email" required id="email" placeholder="email">
+            </label>
+        </div>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button> 
     </form>
 </body>
 </html>
