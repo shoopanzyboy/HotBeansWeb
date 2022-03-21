@@ -23,6 +23,7 @@ label {
 legend {
 	color: #ffffff;
 }
-img { 
-	 
+img ul{
+	display: inline;
+	margin-left: 100%; 
   }
