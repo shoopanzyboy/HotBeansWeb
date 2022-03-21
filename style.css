@@ -73,7 +73,6 @@ ul {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-img ul{
-	display: inline;
-	margin-left: 100%; 
-  }
+#profilepic {
+  
+}
