@@ -79,11 +79,21 @@ ul {
   margin: 3px;
 }
 
+#logo {
+  border-radius: 50%; 
+  height: 40px;
+  margin: 3px;
+  float: left;
+}
+
 .bar1, .bar2, .bar3 {
   width: 25px;
   height: 5px;
   background-color: black;
-  margin: 6px 0;
+  margin: 2px 0;
+}
+.dropbtn {
+  margin: 1px;
 }
 
 .container {
@@ -91,12 +101,12 @@ ul {
   cursor: pointer;
 }
 
-.bar1, .bar2, .bar3 {
-  width: 35px;
+li a:hover, .dropdown:hover .bar1, .bar2, .bar3 {
+  width: 25px;
   height: 5px;
   background-color: #333;
-  margin: 6px 0;
-  transition: 0.4s;
+  margin: 2px 0;
+  transition: 0.6s;
 }
 
 .change .bar1 {
@@ -111,3 +121,10 @@ ul {
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: pink;
+}
