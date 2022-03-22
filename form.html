@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="results.html" method="GET">
+
+        <fieldset>
+            <legend>Your Details</legend>
+            <div>
+                <label for="name">Name</label>
+                    <input type="text" name="name" required id="name" placeholder="username">     
+            </div> 
+
+            <div>
+                <label for="password">Password</label>
+                    <input name="password" type="password" required id="password" placeholder="password">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                    <input name="email" type="email" required id="email" placeholder="email">
+            </div>
+
+            <div>
+                <label for="date">Birthday</label>
+                <input name="date" type="date" required id="date" placeholder="birthday" min="1920-03-15" max="2016-03-15">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Address</legend>
+            <div>
+                <label for="address">Address</label>
+                <input name="address" type="text" required id="address" placeholder="address">
+            </div>
+            <div>
+                <label for="postcode">Post Code</label>
+                <input name="postcode" type="text" required id="postcode" placeholder="postcode">
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <input name="country" type="text" required id="country" placeholder="country">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend></legend>
+        </fieldset>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
